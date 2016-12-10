@@ -1,0 +1,10 @@
+engines:
+  duplication:
+    enabled: true
+  pep8:
+    enabled: true
+  fixme:
+    enabled: true
+  ratings:
+    paths:
+    - "django_jwt/**/*"

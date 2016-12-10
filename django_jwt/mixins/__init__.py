@@ -1,0 +1,3 @@
+from .authentication_mixin import JWTAuthenticationMixin
+from .password_reset_mixin import JWTPasswordResetMixin
+from .activation_mixin import JWTActivationMixin
