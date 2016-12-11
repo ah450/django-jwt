@@ -12,7 +12,7 @@ setup(
     name='django-jwt',
     version='1.0.0',
     license='MIT',
-    packages=['django-jwt'],
+    packages=['django_jwt'],
     include_package_data=True,
     description='JWT implementation for Django and Django Rest Framework',
     long_description=README,
@@ -34,7 +34,7 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules',
         'License :: OSI Approved :: MIT License'
     ],
-    requires=['python-jose >= 1.3', 'django >= 1.10'],
+    install_requires=['python-jose >= 1.3', 'django >= 1.10'],
     extras_requires={
         'drf': ['djangorestframework >= 3.5']
     } 

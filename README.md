@@ -7,6 +7,7 @@
 [![Issue Count](https://codeclimate.com/github/ah450/django-jwt/badges/issue_count.svg)](https://codeclimate.com/github/ah450/django-jwt)
 [![license](https://img.shields.io/github/license/ah450/django-jwt.svg)](https://en.wikipedia.org/wiki/MIT_License)
 [![GitHub issues](https://img.shields.io/github/issues/ah450/django-jwt.svg)](https://github.com/ah450/django-jwt/issues)
+[![Gemnasium](https://img.shields.io/gemnasium/ah450/django-jwt.svg)]()
 
 
 
