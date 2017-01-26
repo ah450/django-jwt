@@ -35,7 +35,7 @@ setup(
         'License :: OSI Approved :: MIT License'
     ],
     install_requires=['python-jose >= 1.3', 'django >= 1.10'],
-    extras_requires={
+    extras_require={
         'drf': ['djangorestframework >= 3.5']
     } 
 )

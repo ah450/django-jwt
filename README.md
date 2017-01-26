@@ -16,3 +16,19 @@ A package that provides JWT authentication and related functionality for django 
 # Installation
 `pip install djang-jwt`
 If you require DRF support install the drf extras via `pip install django-jwt[drf]`
+
+
+# Settings
+profile_klass should be set to your profile model
+
+
+user_reverse_profile_key should be the related name of profile on user model
+
+jwt_realm should be set to your app name, user friendly version
+
+email_subject should be set to your a user friendly string that will appear in email subjects
+
+FROM_EMAIL_ADDRESS should also be set.
+
+
+email_templates_dir should be set to a directory that contains activate_account.txt andreset_pass.txt
