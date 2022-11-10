@@ -7,14 +7,13 @@
 [![Issue Count](https://codeclimate.com/github/ah450/django-jwt/badges/issue_count.svg)](https://codeclimate.com/github/ah450/django-jwt)
 [![license](https://img.shields.io/github/license/ah450/django-jwt.svg)](https://en.wikipedia.org/wiki/MIT_License)
 [![GitHub issues](https://img.shields.io/github/issues/ah450/django-jwt.svg)](https://github.com/ah450/django-jwt/issues)
-[![Gemnasium](https://img.shields.io/gemnasium/ah450/django-jwt.svg)]()
 
 
 
 A package that provides JWT authentication and related functionality for django and [DRF](https://django-rest-framework.org).
 
 # Installation
-`pip install djang-jwt`
+`pip install django-jwt`
 If you require DRF support install the drf extras via `pip install django-jwt[drf]`
 
 
